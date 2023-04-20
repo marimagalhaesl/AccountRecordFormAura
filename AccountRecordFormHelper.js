@@ -1,5 +1,5 @@
 ({
 	handleSucessHelper : function(component, event, helper) {
-		alert("Sua conta foi adicionada");
+		component.set("v.mensagem", "Conta criada com sucesso");
 	}
 })
